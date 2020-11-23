@@ -3,7 +3,7 @@ data = 'https://homeguru.homepro.co.th/wp-json/wp/v2/posts/';
 fetch(data)
     .then(res => res.json())
     .then((result) => {
-        console.log(result[0])
+        //console.log(result[0])
 
         for (i = 0; i < 2; i++) {
 

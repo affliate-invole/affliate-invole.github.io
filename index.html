@@ -25,15 +25,22 @@
     <div class="container-fluid" style="margin-top: 100px; margin-left: 0; margin-right: 0;">
 
     </div>
-    <p onclick="loadproduct('ตู้เย็น')">รวมราคาตู้เย็น</p>
-    <p onclick="loadproduct('เครื่องซักผ้าและอบผ้า')">เครื่องซักผ้าและอบผ้า</p>
+    <div class="container menubar">
+        <button type="button" class="btn btn-primary" onclick="loadproductma('ตู้เย็น'),delproduct()">ตู้เย็น</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('เครื่องซักผ้าและอบผ้า'),delproduct()">เครื่องซักผ้าและอบผ้า</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('เครื่องปรับอากาศ'),delproduct()">เครื่องปรับอากาศ</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('ตู้แช่ไวน์และตู้แช่'),delproduct()">ตู้แช่ไวน์และตู้แช่</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก'),delproduct()">เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('เครื่องดูดฝุ่น'),delproduct()">เครื่องดูดฝุ่น</button>
+    </div>
+    <!-- <div class="row" id="intro">
+        โปรดเลือกหมวดหมู่สินค้า
+    </div> -->
+
     <div class="container">
         <div class="row" id="productname">
 
         </div>
-    </div>
-    <div class="container" id="loading">
-        <p>กำลังโหลดข้อมูลสินค้า.. </p>
     </div>
 
 
