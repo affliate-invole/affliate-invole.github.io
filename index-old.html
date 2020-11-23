@@ -26,22 +26,20 @@
 
     </div>
     <div class="container menubar">
-        <button type="button" class="btn btn-primary" onclick="loading('ตู้เย็น') ">ตู้เย็น</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องซักผ้าและอบผ้า') ">เครื่องซักผ้าและอบผ้า</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องปรับอากาศ') ">เครื่องปรับอากาศ</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ตู้แช่ไวน์และตู้แช่') ">ตู้แช่ไวน์และตู้แช่</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก') ">เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องดูดฝุ่น') ">เครื่องดูดฝุ่น</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เตารีด') ">เตารีด</button>
-        <button type="button" class="btn btn-primary" onclick="loading('สุขภาพและความงาม') ">สุขภาพและความงาม</button>
-        <button type="button" class="btn btn-primary" onclick="loading('พัดลม') ">พัดลม</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ภาชนะบรรจุอาหาร') ">ภาชนะบรรจุอาหาร</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ของใช้ส่วนตัว')">ของใช้ส่วนตัว</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ผลิตภัณฑ์แม่และเด็ก') ">ผลิตภัณฑ์แม่และเด็ก</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ชุดเครื่องใช้ไฟฟ้าเล็ก') ">ชุดเครื่องใช้ไฟฟ้าเล็ก</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('ตู้เย็น'),delproduct()">ตู้เย็น</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('เครื่องซักผ้าและอบผ้า'),delproduct()">เครื่องซักผ้าและอบผ้า</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('เครื่องปรับอากาศ'),delproduct()">เครื่องปรับอากาศ</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductma('ตู้แช่ไวน์และตู้แช่'),delproduct()">ตู้แช่ไวน์และตู้แช่</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก'),delproduct()">เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('เครื่องดูดฝุ่น'),delproduct()">เครื่องดูดฝุ่น</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('เตารีด'),delproduct()">เตารีด</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('สุขภาพและความงาม'),delproduct()">สุขภาพและความงาม</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('พัดลม'),delproduct()">พัดลม</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('ภาชนะบรรจุอาหาร'),delproduct()">ภาชนะบรรจุอาหาร</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('ของใช้ส่วนตัว'),delproduct()">ของใช้ส่วนตัว</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('ผลิตภัณฑ์แม่และเด็ก'),delproduct()">ผลิตภัณฑ์แม่และเด็ก</button>
+        <button type="button" class="btn btn-primary" onclick="loadproductsa('ชุดเครื่องใช้ไฟฟ้าเล็ก'),delproduct()">ชุดเครื่องใช้ไฟฟ้าเล็ก</button>
         
-    </div>
-    <div class="row" id="loading">
     </div>
     <div class="row" id="intro">
         โปรดเลือกหมวดหมู่สินค้า
@@ -67,10 +65,9 @@
             </a>
         </div>
     </nav>
-    <script src="productall.js"></script>
+    <script src="product.js"></script>
     <script src="timer.js"></script>
     <script src="homegurocontent.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
