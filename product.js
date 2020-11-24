@@ -8,7 +8,7 @@ function loadproductma(namecat) {
             for (x = 0; x < 300; x++) {
                 if (result[x].name_th == namecat) {
 
-                    document.getElementById("productname").innerHTML += "<div class='card cardmain'>" + "<div class='row cardproduct'>การันตีถูกจริง!! </div>" + "<img src='" + result[x].hp_image_medium + " 'class='card-img-top' alt=' " + result[x].hp_full_desc_th + " ' loading='lazy'></img><div class='card-body'><p class='sku'> SKU: " + result[x].partnumber + "</p></p><p class='productname'> " + result[x].hp_full_desc_th + "</p>" + "<a href='" + result[x].url + "'><p class='btnproduct'><button type='button' class='btn btn-primary'>ดูราคาล่าสุด</button></p></a>";
+                    document.getElementById("productname").innerHTML += "<div class='card cardmain'>" + "<div class='row cardproduct'>การันตีถูกจริง!! </div>" + "<img src='" + result[x].hp_image_medium + " 'class='card-img-top' alt=' " + result[x].hp_full_desc_th + " ' loading='lazy'></img><div class='card-body'><p class='sku'> SKU: " + result[x].partnumber + "</p></p><p class='productname'> " + result[x].hp_full_desc_th + "</p>" + " <p>" + result[x].price + "</p><a href='" + result[x].url + "'><p class='btnproduct'><button type='button' class='btn btn-primary'>ดูราคาล่าสุด</button></p></a>";
                 }
             }
 
