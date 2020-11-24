@@ -20,33 +20,49 @@
         <a class="navbar-brand" href="#" style="text-align: center; ">
             <h1 class="nameweb">BAANAROO</h1>
             <p class="titlewebsite" style="color: white;margin: 0px;">
-                จำหน่ายเครื่องใช้ไฟฟ้า , ตู้เย็น , เครื่องซักผ้าและอบผ้า
+                จำหน่ายเครื่องใช้ไฟฟ้า , ตู้เย็น , ตู้เย็น 2 ประตู
             </p>
         </a>
     </nav>
 
-    <div class="container-fluid" style="margin-top: 100px; margin-left: 0; margin-right: 0;">
 
     </div>
-    <div class="container menubar" style="padding: 10px;">
-        <button type="button" class="btn btn-primary" onclick="loading('ตู้เย็น') ">ตู้เย็น</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องซักผ้าและอบผ้า') ">เครื่องซักผ้าและอบผ้า</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องปรับอากาศ') ">เครื่องปรับอากาศ</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ตู้แช่ไวน์และตู้แช่') ">ตู้แช่ไวน์และตู้แช่</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก') ">เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เครื่องดูดฝุ่น') ">เครื่องดูดฝุ่น</button>
-        <button type="button" class="btn btn-primary" onclick="loading('เตารีด') ">เตารีด</button>
-        <button type="button" class="btn btn-primary" onclick="loading('สุขภาพและความงาม') ">สุขภาพและความงาม</button>
-        <button type="button" class="btn btn-primary" onclick="loading('พัดลม') ">พัดลม</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ภาชนะบรรจุอาหาร') ">ภาชนะบรรจุอาหาร</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ของใช้ส่วนตัว')">ของใช้ส่วนตัว</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ผลิตภัณฑ์แม่และเด็ก') ">ผลิตภัณฑ์แม่และเด็ก</button>
-        <button type="button" class="btn btn-primary" onclick="loading('ชุดเครื่องใช้ไฟฟ้าเล็ก') ">ชุดเครื่องใช้ไฟฟ้าเล็ก</button>
+    <div class="container" style="margin-top: 100px; margin-left: 0; margin-right: 0;">
 
     </div>
+    <div class="container menubar" style="padding: 5px;">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-primary" onclick="loading('ตู้เย็น') ">ตู้เย็น</button>
+                <button type="button" class="btn btn-primary" onclick="loading('เครื่องซักผ้าและอบผ้า') ">เครื่องซักผ้าและอบผ้า</button>
+                <button type="button" class="btn btn-primary" onclick="loading('เครื่องปรับอากาศ') ">เครื่องปรับอากาศ</button>
+                <button type="button" class="btn btn-primary" onclick="loading('ตู้แช่ไวน์และตู้แช่') ">ตู้แช่ไวน์และตู้แช่</button>
+                <button type="button" class="btn btn-primary" onclick="loading('เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก') ">เครื่องใช้ไฟฟ้าในครัวขนาดเล็ก</button>
+                <button type="button" class="btn btn-primary" onclick="loading('เครื่องดูดฝุ่น') ">เครื่องดูดฝุ่น</button>
+                <button type="button" class="btn btn-primary" onclick="loading('เตารีด') ">เตารีด</button>
+                <button type="button" class="btn btn-primary" onclick="loading('สุขภาพและความงาม') ">สุขภาพและความงาม</button>
+                <button type="button" class="btn btn-primary" onclick="loading('พัดลม') ">พัดลม</button>
+                <button type="button" class="btn btn-primary" onclick="loading('ภาชนะบรรจุอาหาร') ">ภาชนะบรรจุอาหาร</button>
+                <button type="button" class="btn btn-primary" onclick="loading('ของใช้ส่วนตัว')">ของใช้ส่วนตัว</button>
+                <button type="button" class="btn btn-primary" onclick="loading('ผลิตภัณฑ์แม่และเด็ก') ">ผลิตภัณฑ์แม่และเด็ก</button>
+                <button type="button" class="btn btn-primary" onclick="loading('ชุดเครื่องใช้ไฟฟ้าเล็ก') ">ชุดเครื่องใช้ไฟฟ้าเล็ก</button>
+            </div>
+        </div>
+    </div>
+
     <div class="row" id="intro">
         โปรดเลือกหมวดหมู่สินค้า
     </div>
+
+
+    <div class="container">
+        <h3> บทความแนะนำจากเว็บชื่อดัง </h3>
+        <div class="row" id="articlehomeguru">
+
+        </div>
+    </div>
+    </div>
+
     <div class="container">
         <div class="row" id="productname">
         </div>
@@ -70,13 +86,14 @@
                 </div>
 
                 <p class="navfooter " style="color: white; margin: 0px; font-size: small; ">สินค้าภาพในเว็บไซต์นี้พร้อมส่ง ซึ่งราคาอาจมีการเปลี่ยนแปลง <br>คุณสามารถเช็คราคาล่าสุดได้โดยการกดที่ลิงค์สินค้า</p>
-                <div class="col promotion" style="color: #ffffff; font-size: larger;">กลับไปด้านบน</div>
+                <div style="color: #ffffff; font-size: larger;">กลับไปด้านบน</div>
             </a>
         </div>
     </nav>
     <script src="productall.js"></script>
     <script src="timer.js"></script>
     <script src="homegurocontent.js"></script>
+    <script src="homeguruapi.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 

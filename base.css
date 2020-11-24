@@ -7,7 +7,7 @@ p {
     font-family: 'Kanit', sans-serif;
 }
 
-.card {
+.productcard {
     width: 15rem;
     margin: 10px;
     font-family: 'Roboto', sans-serif;
@@ -20,6 +20,21 @@ p {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+
+/* .card {
+    width: 15rem;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    border: 15px solid rgba(4, 95, 233, 0.13);
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} */
 
 .row {
     margin-top: auto;
@@ -83,8 +98,8 @@ body {
 .nav {
     word-spacing: 2px;
     margin: 5px;
-    line-height: 12px;
-    padding: 10px;
+    line-height: 8px;
+    padding: 5px;
 }
 
 .nameweb {
@@ -153,6 +168,34 @@ body {
     }
 }
 
+.article {
+    width: 350px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    border: 1px solid rgba(161, 162, 182, 0.178);
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px;
+}
+
+.articleimg {
+    width: 300px;
+    border: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 10px;
+}
+
 @media only screen and (max-width: 800px) {
     .card {
         width: 10rem;
@@ -181,5 +224,30 @@ body {
     }
     .btnproduct {
         font-size: 8px;
+    }
+    .article {
+        width: 300px;
+        margin: 10px;
+        font-family: 'Roboto', sans-serif;
+        background: #FFFFFF;
+        border: 1px solid rgba(161, 162, 182, 0.178);
+        box-sizing: border-box;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        padding: 5px;
+    }
+    .articleimg {
+        width: 200px;
+        border: 5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        margin: 10px;
     }
 }
