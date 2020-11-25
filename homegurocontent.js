@@ -1,5 +1,5 @@
 var data, i, x = "";
-data = 'https://homeguru.homepro.co.th/wp-json/wp/v2/posts/?_embed';
+data = 'https://baannaroo.com/wordpress/wp-json/wp/v2/posts/?_embed';
 fetch(data)
     .then(res => res.json())
     .then((result) => {
@@ -18,18 +18,3 @@ fetch(data)
     })
     .catch(err => { throw err });
 
-
-
-
-function Imgwp(imgid) {
-    var img, k, p = "";
-    img = 'https://homeguru.homepro.co.th/wp-json/wp/v2/media/' + imgid;
-    fetch(img)
-        .then(res => res.json())
-        .then((img) => {
-
-            if (img.id = x)
-                console.log(img.guid.rendered);
-        })
-        .catch(err => { throw err });
-}
