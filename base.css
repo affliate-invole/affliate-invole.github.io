@@ -49,7 +49,7 @@ p {
 }
 
 .fixed-bottom {
-    background: #0013C0;
+    background: #ffffff;
     font-size: medium;
     color: azure;
 }
@@ -93,7 +93,6 @@ body {
     font-size: 12px;
 }
 
-.menubar,
 .nav-list,
 .nav {
     word-spacing: 2px;
@@ -103,10 +102,6 @@ body {
 }
 
 .nameweb {
-    color: white;
-}
-
-.nameweb :hover {
     color: white;
 }
 
@@ -196,7 +191,7 @@ body {
     margin: 10px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .card {
         width: 10rem;
         margin: 10px;
@@ -240,7 +235,7 @@ body {
         padding: 5px;
     }
     .articleimg {
-        width: 200px;
+        width: 250px;
         border: 5px;
         border-radius: 5px;
         box-sizing: border-box;
