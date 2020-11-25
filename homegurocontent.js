@@ -4,6 +4,7 @@ fetch(data)
     .then(res => res.json())
     .then((result) => {
 
+
         for (i = 0; i < 6; i++) {
 
             // console.log(result[i].title.rendered);
