@@ -1,5 +1,5 @@
 var data, i, x = "";
-data = 'https://baannaroo.com/wordpress/wp-json/wp/v2/posts/?_embed';
+data = 'https://baannaroo.com/wordpress/wp-json/wp/v2/posts/?_embed&per_page=20';
 fetch(data)
     .then(res => res.json())
     .then((result) => {
@@ -17,4 +17,3 @@ fetch(data)
 
     })
     .catch(err => { throw err });
-
