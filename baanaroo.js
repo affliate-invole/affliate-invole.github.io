@@ -1,8 +1,13 @@
 var data, i, x = "";
 data = 'https://baannaroo.com/wordpress/wp-json/wp/v2/posts/?_embed&per_page=20';
+
+document.getElementById('articlebaannaroo').innerHTML = "<img src='Ellipsis.gif'><br><p>กำลังดึงข้อมูลบทความ</p>";
+setTimeout(2000);
+document.getElementById('articlebaannaroo').innerHTML = "<img src='Ellipsis.gif'><br>";
 fetch(data)
     .then(res => res.json())
     .then((result) => {
+        document.getElementById('articlebaannaroo').innerHTML = " ";
 
 
         for (i = 0; i < 6; i++) {
