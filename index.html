@@ -31,6 +31,10 @@
 
     </div>
     <div class="container menubar" style="padding: 5px;">
+        <div class="row intro">
+            หลังจากกดหมวดแล้ว รายการสินค้าจะแสดงด้านล่าง
+
+        </div>
         <div class="row">
             <div class="col-sm">
                 <button type="button" class="btn btn-primary" onclick="loading('ตู้เย็น') ">ตู้เย็น</button>
@@ -53,11 +57,6 @@
         </div>
     </div>
 
-    <div class="row intro">
-        หลังจากกดหมวดแล้ว รายการสินค้าจะแสดงด้านล่าง
-
-    </div>
-
     </div>
 
     <div class="container">
@@ -67,6 +66,7 @@
 
     <div class="container">
         <h3> บทความแนะนำจากเว็บชื่อดัง </h3>
+        <div class="row" id="articlebaannaroo"></div>
         <div class="row" id="articlehomeguru">
 
         </div>
@@ -106,7 +106,8 @@
         </div>
     </nav>
     <script src="productall.js"></script>
-    <script src="homegurocontent.js"></script>
+    <script src="baanaroo.js"></script>
+    <script src="homeguru.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script>
